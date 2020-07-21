@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+a,p,h1,h2,h3{
+	font-family: "Times New Roman", Times, serif;
+}
+
+body {
+	line-height: 1;
+	background-color: #f4f4f4;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+hr{
+	border: 1px solid #c0c0c0;
+	margin-top: 46px;
+}
+
+.boldu{
+	border: 3px solid #000;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.clear{
+	clear: both;
+}
+.box_bar{
+	margin-top:100px;
+	background: #CDD3DB;
+   height: 425px;
+   width:250px;
+   margin-left:550px;
+ 
+}
+.main_title{
+	position:absolute;
+	margin-top:15px;
+	margin-left:15px;
+}
+.free_title{
+	position:absolute;
+	margin-top:50px;
+	margin-left:15px;
+}
+.blank_box {
+	
+	margin-top: 70px;
+	position: absolute;
+}
+.f_name{
+	float:left;
+}.f_name input{
+	 margin-left:14px;
+	 width: 99px;
+	 height:25px;
+	 border-radius:5px;
+	
+	
+}
+.l_name{
+	float:left;
+}.l_name input{
+	 margin-left:16px;
+	 width: 99px;
+	 height:25px;
+	 position:absolute;
+	 border-radius:5px;
+	
+	
+}
+.mob_email input{
+	margin-top:39px;
+	 margin-left:-102px;
+	 width: 216px;
+	 height:25px;
+	 position:absolute;
+	 border-radius:5px;
+	
+}
+.rentermob_email input{
+	margin-top:80px;
+	 margin-left:-102px;
+	 width: 216px;
+	 height:25px;
+	 position:absolute;
+	 border-radius:5px;
+	
+}
+.n_pass input{
+		margin-top:120px;
+	 margin-left:-102px;
+	 width: 216px;
+	 height:25px;
+	 position:absolute;
+	 border-radius:5px;
+}
+
+.b_day{
+	position:absolute;
+	margin-top:162px;
+	margin-left:15px;
+	
+}
+.b_day select{
+	position:absolute;
+	margin-top:5px;
+	margin-left:0px;
+}
+.m_day select{
+	
+		position:absolute;
+	margin-top:181px;
+	margin-left:-53px;
+}
+.y_day select{
+	
+	position:absolute;
+	margin-top:181px;
+	margin-left:10px;
+}
+.male_rad{
+		position:absolute;
+	margin-top:212px;
+	margin-left:16px;
+	width:164px;
+}
+.s_up button{
+	margin-top:312px;
+	 position:absolute;
+	color:white; 
+	width:132px; 
+	height:27px;
+		margin-left:-102px;
+		border:none;
+		background:#178D37;
+			 border-radius:5px;
+}
+.p_details p{
+	position:absolute;
+	margin-top:262px;
+	margin-left:15px;
+	text-align: justify;
+	width:412px;
+	font-size:9px;
+}
